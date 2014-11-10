@@ -1,0 +1,35 @@
+{
+  "name": "gulp-incbuild",
+  "version": "0.0.1",
+  "description": "inc build tools ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "./index.js",
+  "keywords": [
+    "gulp",
+    "gulpplugin",
+    "inc",
+    "build",
+    "tool"
+  ],
+  "author": "yleo77",
+  "license": "MIT",
+  "peerDependencies": {
+    "gulp": "*"
+  },
+  "dependencies": {
+    "colors": "^1.0.3",
+    "gulp-util": "^3.0.1",
+    "incrementify": "*",
+    "minimist": "^1.1.0",
+    "through2": "^0.6.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yleo77/gulp-incbuild.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yleo77/gulp-incbuild/issues"
+  },
+}
